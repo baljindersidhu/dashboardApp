@@ -1,0 +1,107 @@
+/* ================================================ Header ========================================================================== */
+
+/* header logo image margin and height */
+.header-logo-image{
+	margin-left: 50px;
+}
+
+/* restrict image size to 50px only */
+.restrict-to-header-size{
+	max-height: 50px;
+}
+
+/* styling header logo */
+.header-logo{
+    color: rgb(140,158,255);
+    font-family: 'Macondo', cursive;
+}
+
+/* ============================================== Login Page =========================================================================== */
+/* for default page background */
+.login-background{
+	background-image: url("images/default4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* for center aligning login page card */
+.login-card{
+	min-width: 50%;
+}
+
+.login-form-logo{
+	max-width: 125px;	
+}
+
+.login-form{
+	background-color: white;
+    opacity: 0.8;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    min-height: 320px;
+}
+
+
+/* giving background image to login page */
+.parentView{
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* giving minimum height for smaller devices 
+to prevent overlap by virtual keyboard */
+.min-height500{
+	min-height: 500px !important;
+}
+
+/* ====================================================== Body Font ============================================================= */
+/* setting font for body */
+body{
+	font-family: 'Raleway', sans-serif;
+}
+/* default user image */
+
+/* ====================================================== Global Common Styles ================================================== */
+/* giving 10% margin for left and right on login-input containers */
+.marginLft5prcnt{
+	margin-left: 5%;
+}
+.marginLft10prcnt{
+	margin-left: 10%;
+}
+.marginRgt10prcnt{
+    margin-right: 10%;
+}
+
+/* global sizing by percent */
+.size20prcnt{
+	max-height: 20%;
+}
+
+/* ======================================================== Landing Page Styles ==================================================== */
+.landing-background{
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.login-toast-opacity{
+	opacity: 0.9;
+}
+
+		/* ================================================== Sidenav Styles ================================= */
+.sidenav-background{
+	background-image: url("images/sidenav/sidenav10.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.sidenav-opacity{
+	opacity: 0.9;
+}
+
+.main-logo{
+	font-family: 'Satisfy', cursive;
+}
